@@ -1,11 +1,13 @@
 #!/bin/bash
-sudo apt-get update
+
+sudo apt-get update -y
 sudo apt-get install nginx -y
-sudo systemctl start nginx
+
 sudo systemctl enable nginx
+sudo systemctl start nginx
 
-cp hello.html /var/www/html
+sudo cp hello.html /var/www/html/index.html
 
-sudo systemctl 
+sudo systemctl restart nginx
 
-echo "Devboard is running on port 80"
+echo "DevBoard is running on port 80"
