@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>App DevBoard</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #2b1055, #7b2ff7, #f107a3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.15);
+      padding: 40px;
+      border-radius: 20px;
+      text-align: center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 42px;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 25px;
+      background: white;
+      color: #7b2ff7;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>App DevBoard</h1>
+    <p>Build. Track. Deploy.</p>
+    <button>Get Started</button>
+  </div>
+</body>
+</html>
